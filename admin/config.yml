@@ -1,9 +1,10 @@
+# Use DecapBridge classic auth (required)
 backend:
-  name: github
+  name: git-gateway
   repo: VestaFi/vestafi-site
   branch: main
-  base_url: https://api.decapbridge.com
-  auth_endpoint: auth
+  identity_url: https://auth.decapbridge.com/sites/6570d394-6d0f-4495-9437-a815e3edfa38
+  gateway_url: https://gateway.decapbridge.com
 
 media_folder: "uploads/"
 public_folder: "/uploads"
