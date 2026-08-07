@@ -1,0 +1,73 @@
+/* ============================================================
+   VestaFi — Color tokens
+   Palette: warm Orange primary + Ink navy-blue + cream Paper.
+   Base ramps first, then semantic aliases.
+   ============================================================ */
+:root {
+  /* --- Orange (primary / brand) --- */
+  --orange:        #ff6b35; /* Primary buttons, accents, italicised emphasis */
+  --orange-deep:   #e5572a; /* Hover / active button state */
+  --orange-soft:   #ffe8dd; /* Soft fills, highlight blocks, badges */
+  --orange-tint:   #fff4ee; /* Faintest tint — hover rows, subtle fills */
+
+  /* --- Ink (navy-blue — text + headings) --- */
+  --ink:           #074e86; /* All body text, links, primary headings */
+  --ink-deep:      #003561; /* Display headings on cream */
+  --ink-soft:      #4a5a6e; /* Body paragraphs, descriptions */
+  --ink-faint:     #8995a6; /* Captions, metadata, eyebrows on light */
+
+  /* --- Navy backgrounds (dark surfaces) --- */
+  --navy-bg:       #00264a; /* Dark section backgrounds, hero, strategy widget */
+  --navy-bg-deep:  #001b36; /* Footer, nav-button hover, deepest surface */
+
+  /* --- Paper / neutrals --- */
+  --paper:         #fdfcf9; /* Default body background & cards (warm cream) */
+  --paper-shade:   #f4f1ea; /* Sunken rows, alt cards, wells */
+  --white:         #ffffff;
+
+  /* --- Hairlines & borders (derived) --- */
+  --border:        #e7e2d8; /* Card / divider hairline on paper */
+  --border-strong: #d8d1c4; /* Emphasised divider */
+  --border-navy:   rgba(255,255,255,0.14); /* Hairline on navy surfaces */
+
+  /* --- Semantic status --- */
+  --success:       #1f8a5b;
+  --success-soft:  #e3f3ea;
+  --warning:       #d98a1f;
+  --warning-soft:  #fbeed6;
+  --danger:        #d24545;
+  --danger-soft:   #f9e3e3;
+  --info:          var(--ink);
+  --info-soft:     #e4eef7;
+
+  /* ============================================================
+     Semantic aliases — reference these in components/UI kits.
+     ============================================================ */
+  /* Text */
+  --text-heading:   var(--ink-deep);
+  --text-title:     var(--ink);
+  --text-body:      var(--ink-soft);
+  --text-muted:     var(--ink-faint);
+  --text-link:      var(--ink);
+  --text-on-brand:  var(--white);
+  --text-on-dark:   #eaf1f8;
+  --text-on-dark-muted: #9db1c6;
+  --text-accent:    var(--orange);
+
+  /* Surfaces */
+  --surface-page:      var(--paper);
+  --surface-card:      var(--white);
+  --surface-sunken:    var(--paper-shade);
+  --surface-brand:     var(--orange);
+  --surface-brand-soft:var(--orange-soft);
+  --surface-dark:      var(--navy-bg);
+  --surface-dark-deep: var(--navy-bg-deep);
+
+  /* Interactive */
+  --action-primary:        var(--orange);
+  --action-primary-hover:  var(--orange-deep);
+  --action-primary-soft:   var(--orange-soft);
+  --action-secondary:      var(--ink);
+  --action-secondary-hover:var(--ink-deep);
+  --focus-ring:            rgba(255,107,53,0.45);
+}
