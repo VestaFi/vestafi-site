@@ -1,0 +1,43 @@
+# ============================================
+# DECAP CMS CONFIGURATION FOR VESTAFI
+# ============================================
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads/"
+public_folder: "/uploads"
+
+# Show this warning on first login
+publish_mode: editorial_workflow
+
+collections:
+  # BLOG POSTS COLLECTION
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Post Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string", default: "VestaFi Team"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Summary", name: "summary", widget: "text", hint: "Short description for blog listing"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", default: []}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+
+  # LEGAL PAGES COLLECTION
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Page Title", name: "title", widget: "string"}
+      - {label: "Slug (URL path)", name: "slug", widget: "string", hint: "e.g., privacy-policy"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Last Updated", name: "last_updated", widget: "datetime"}
+      - {label: "Published", name: "published", widget: "boolean", default: true}

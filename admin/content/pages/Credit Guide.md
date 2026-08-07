@@ -1,5 +1,9 @@
 
-
+```
+title: "Credit Guide" 
+slug: "credit-guide" 
+last_updated: "2026-08-07T00:00:00.000Z" published: true
+```
 # Credit Guide
 
 Finsure Finance & Insurance Pty Ltd is a licensed provider of credit assistance to assist you with finance under the National Consumer Credit Protection Act 2009 (”The Act”). This document provides you with information about us and our representative (”we, us, our”), with whom you are dealing and the services we provide.

@@ -1,3 +1,10 @@
+
+```
+title: "Disclaimer and Liability Limitation" 
+slug: "disclaimer-and-liability-limitation" 
+last_updated: "2026-08-07T00:00:00.000Z" published: true
+```
+
 ## Effective Date: 06/08/2026
 
 ## Content

@@ -1,3 +1,9 @@
+
+```
+title: "Compliments and Complaints" 
+slug: "compliments-complaints" 
+last_updated: "2026-08-07T00:00:00.000Z" published: true
+```
 ## Effective Date: 06/08/2026
 
 At Maison Brown Financial Pty Ltd t/a VestaFi, we are committed to building strong and lasting relationships with our clients. Your feedback helps us not only address any immediate concerns you may have, but also continually improve the way we deliver our services.

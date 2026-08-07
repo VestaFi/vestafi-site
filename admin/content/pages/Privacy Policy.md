@@ -1,4 +1,10 @@
-# Privacy Policy
+
+```
+title: "Privacy Policy" 
+slug: "privacy-policy" 
+last_updated: "2026-08-07T00:00:00.000Z" published: true
+```
+
 
 ## Effective Date: 06/08/2026
 
