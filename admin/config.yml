@@ -1,19 +1,13 @@
-# ============================================
-# DECAP CMS CONFIGURATION FOR VESTAFI
-# ============================================
-
-# Use DecapBridge classic auth (required)
 backend:
-  name: git-gateway
+  name: github
   repo: VestaFi/vestafi-site
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/6570d394-6d0f-4495-9437-a815e3edfa38
-  gateway_url: https://gateway.decapbridge.com
+  base_url: https://api.decapbridge.com
+  auth_endpoint: auth
 
 media_folder: "uploads/"
 public_folder: "/uploads"
 
-# Show this warning on first login
 publish_mode: editorial_workflow
 
 collections:
