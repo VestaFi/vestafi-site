@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   repo: VestaFi/vestafi-site
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/6570d394-6d0f-4495-9437-a815e3edfa38
+  identity_url: https://auth.decapbridge.com/sites/cd452f29-6879-46ed-bfad-0c37e4bb9c59
   gateway_url: https://gateway.decapbridge.com
 
 media_folder: "uploads/"
